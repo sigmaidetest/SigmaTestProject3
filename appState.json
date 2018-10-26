@@ -1,0 +1,73 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e0b5f975-4f97-4969-94af-b720e7caf8de": {
+        "id": "e0b5f975-4f97-4969-94af-b720e7caf8de",
+        "parent": null,
+        "name": "SigmaTestProject",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "085e8d08-84ad-460e-90f8-ccae2bb9753c"
+        ],
+        "isRemovable": false,
+        "filePath": "SigmaTestProject"
+      },
+      "085e8d08-84ad-460e-90f8-ccae2bb9753c": {
+        "id": "085e8d08-84ad-460e-90f8-ccae2bb9753c",
+        "parent": "e0b5f975-4f97-4969-94af-b720e7caf8de",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigmaTestProject/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        }
+      }
+    },
+    "deletedFiles": [
+      "SigmaTestProject/lambda2.js"
+    ],
+    "rootNode": "e0b5f975-4f97-4969-94af-b720e7caf8de",
+    "openFiles": [
+      "085e8d08-84ad-460e-90f8-ccae2bb9753c"
+    ],
+    "currentFileId": "085e8d08-84ad-460e-90f8-ccae2bb9753c",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "085e8d08-84ad-460e-90f8-ccae2bb9753c"
+  },
+  "PROJECT_META": {
+    "projectName": "SigmaTestProject",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "lastSave": 1540547714516
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SigmaTestProject2",
+      "url": "https://github.com/sigmaidetest/SigmaTestProject3"
+    }
+  }
+}
